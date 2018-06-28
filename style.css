@@ -53,3 +53,18 @@ h3 {
 .fab, .fas, .far {
   font-size: 30px;
 }
+
+.section-work {
+  margin: 10px 15px;
+}
+
+.work {
+  text-align: center;
+  background-color: #f7f7f9;
+  height: 500px;
+  border: 5px solid #1A1A1A;
+}
+
+.work .fas {
+  padding-top: 10px;
+}
