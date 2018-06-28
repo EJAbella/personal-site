@@ -56,6 +56,7 @@ h3 {
 
 .section-work {
   margin: 10px 15px;
+  position: relative;
 }
 
 .work {
@@ -66,11 +67,30 @@ h3 {
 }
 
 .work .fas {
-  padding-top: 10px;
+  padding-top: 20px;
+}
+
+.work-text {
+  padding: 50px 20px;
+  font-size: 18px;
+}
+
+.edu-header {
+  margin: 22px 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.par-text {
+  font-size: 22px;
+  color: #f7f7f9;
+  background: #1A1A1A;
+  z-index: 8;
+  margin: 30px 30px;
 }
 
 .parallax {
-  background-image: url(family.jpg);
+  background-image: url(hobbies.jpg);
   height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -88,7 +108,7 @@ h3 {
 }
 
 .parallax3 {
-  background-image: url(hobbies.jpg);
+  background-image: url(family.jpg);
   height: 600px;
   background-attachment: fixed;
   background-position: center;
